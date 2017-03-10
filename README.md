@@ -4,6 +4,7 @@ ERD
 
 ![alt tag](erd/bangazon_erd.png)
 
+Requirements
 
 Use SQLite and the sqlite3 module to create your tables. These tables are required:
 
