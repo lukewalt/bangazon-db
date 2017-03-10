@@ -1,5 +1,10 @@
 # bangazon-db
 
+ERD
+
+![alt tag](erd/bangazon_erd.png)
+
+
 Use SQLite and the sqlite3 module to create your tables. These tables are required:
 
 customers
