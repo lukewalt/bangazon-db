@@ -5,7 +5,7 @@
 const { Database } = require('sqlite3').verbose();
 
 // returns a new database obj and automatically opens the database : accepts a callback confirming connection
-const bangDB = new Database('bangazon.sqlite', () => console.log('Connection!'));
+const bangDB = new Database('./bangazon.sqlite', () => console.log('Connection!'));
 
 // function to handle error
 const errorHandle = (err) => {
